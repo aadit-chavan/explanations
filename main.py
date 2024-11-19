@@ -19,7 +19,7 @@ image_dir_list = os.listdir(image_dir)
 
 for modelnm in model_list:
     final_dict[modelnm] = {}
-    model = load_model_new(cuda=1, model_name=modelnm)
+    model = load_model_new(use_cuda=1, model_name=modelnm)
     for img_nm in image_dir_list[:10]:
         img_path = image_dir + '/' + img_nm
         model_results = generate_sag_and_subex(input_img=img_path, model=model)
