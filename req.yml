@@ -1,0 +1,19 @@
+name: sag_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7
+  - numpy=1.21.2
+  - scipy=1.6.2
+  - matplotlib=3.4.3
+  - scikit-image=0.16.2
+  - pillow=8.4.0
+  - pytorch=1.9.1
+  - torchvision=0.10.1
+  - pygraphviz=1.7
+  - opencv=4.5.3
+  - graphviz
+  - timm
+  - tqdm
+  - jupyter
